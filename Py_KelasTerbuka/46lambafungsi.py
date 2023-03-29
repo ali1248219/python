@@ -84,12 +84,12 @@ print(data_3)
 # currying <- haskell curry
 
 
-def pangkat(angka, n):
+def pangkat_biasa(angka, n):
     hasil = angka**n
     return hasil
 
 
-data_hasil = pangkat(3, 2)
+data_hasil = pangkat_biasa(3, 2)
 print(data_hasil)
 
 
