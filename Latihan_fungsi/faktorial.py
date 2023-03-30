@@ -1,9 +1,18 @@
-def faktorial(bil):
+def cari_faktorial(angka):
     hasil_faktorial = 1
-    for x in range(2, bil+1):
-        hasil_faktorial = hasil_faktorial * x
+    for i in range(1,angka+1):
+        hasil_faktorial *= i
     return hasil_faktorial
 
+hasil = cari_faktorial(4)
+print(hasil)
 
-for f in range(1, 10):
-    print('{} faktorial = {}'.format(f, faktorial(f)))
+
+def apakahFaktorial(angka):
+    hasil = 1
+    for i in range(1,angka+1):
+        hasil *= i
+    return hasil
+
+hasil_hitung = apakahFaktorial(3)
+print(hasil_hitung)
