@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import os
+<<<<<<< HEADimport os
 # push
 # membuat program menghitung luas dan keliling persegi panjang
 
