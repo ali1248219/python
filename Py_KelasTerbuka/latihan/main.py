@@ -1,4 +1,6 @@
-# lanjutan dari 61
+# file awal ada di persiapan
+
+# di sini kita akan belajar mengenai database dan operasi serta util
 
 # Header
 import os
@@ -21,7 +23,7 @@ if __name__ == "__main__":
         print("="*30)
 
         # Inti Program
-        user_pilih = input(f"\n Masukkaqn opsi : ")
+        user_pilih = input(f"\n Masukkan opsi : ")
         print("="*30, "\n")
         match user_pilih:
             case "1": print("Pilih Surat Tugas")
